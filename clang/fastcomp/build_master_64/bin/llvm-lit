@@ -4,8 +4,8 @@ import os
 import sys
 
 # Variables configured at build time.
-llvm_source_root = "/home/marco/Documents/workspace/emsdk_portable/clang/fastcomp/src"
-llvm_obj_root = "/home/marco/Documents/workspace/emsdk_portable/clang/fastcomp/build_master_64"
+llvm_source_root = "/home/marco/Documents/workspace/emscripten-sdk/clang/fastcomp/src"
+llvm_obj_root = "/home/marco/Documents/workspace/emscripten-sdk/clang/fastcomp/build_master_64"
 
 # Make sure we can find the lit package.
 sys.path.insert(0, os.path.join(llvm_source_root, 'utils', 'lit'))
